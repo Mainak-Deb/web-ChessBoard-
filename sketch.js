@@ -63,7 +63,7 @@ function draw() {
     
   }
   if(toggle==false){
-    print(toggle,state);
+    //print(toggle,state);
       if (state==false) {
         if(chess[ci][cj]!=100){
         ti=ci;tj=cj;
@@ -75,7 +75,7 @@ function draw() {
   }
   if(toggle){
       fill(255,255,0);
-      print(toggle,state);
+      //print(toggle,state);
       rect(sx+tj*l,sy+ti*l,l,l);
       if(chess[ti][tj]<12) {
         image(ghuti[chess[ti][tj]],sx+tj*l,sy+ti*l,l,l);
