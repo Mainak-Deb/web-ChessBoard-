@@ -117,7 +117,7 @@ function raja(pos){
                 console.log(pos,a)
                 touch=false;
             }
-            console.log(a,touch)
+            
         }
     }
 }
